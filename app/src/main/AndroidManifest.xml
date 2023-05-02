@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.miwok">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.android.miwok.MainActivity">
+
+    </activity>
+        <activity
+            android:name="com.example.category.ColorsActivity"
+            android:label="@string/category_skinsandcolors" />
+        <activity android:name="com.example.lesson.taskslesson"
+            android:label="@string/category_tasks">
+        </activity>
+        <activity android:name="com.example.lesson.Groupslesson"
+            android:label="@string/category_groups">
+        </activity>
+        <activity android:name="com.example.lesson.Ablitieslesson"
+            android:label="@string/category_ablities">
+        </activity>
+        <activity android:name="com.example.lesson.Mapslesson"
+            android:label="@string/category_maps">
+        </activity>
+        <activity android:name="com.example.lesson.Gameplaylesson"
+            android:label="@string/category_gameplay">
+        </activity>
+        <activity android:name="com.example.lesson.Locationslesson"
+            android:label="@string/category_locations">
+        </activity>
+        <activity android:name="com.example.lesson.Tipslesson"
+            android:label="@string/category_tips">
+        </activity>
+        <activity android:name="com.example.lesson.color.Colorslesson"
+            android:label="@string/category_colors">
+        </activity>
+        <activity android:name="com.example.lesson.color.Skinslesson"
+            android:label="@string/category_skins">
+        </activity>
+        <activity android:name="com.example.lesson.color.Petslesson"
+            android:label="@string/category_pets">
+        </activity>
+        <activity android:name="com.example.lesson.color.Hatslesson"
+            android:label="@string/category_hats">
+        </activity>
+
+    </application>
+
+</manifest>
