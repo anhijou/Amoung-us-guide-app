@@ -1,4 +1,4 @@
-package com.example.lesson;
+ypackage com.example.lesson;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -18,7 +18,7 @@ public class Tipslesson extends AppCompatActivity {
 
         ArrayList<LessonForm> lstinfos = new ArrayList<LessonForm>();
 
-        lstinfos.add(new LessonForm("Fake tasks (properly!)", "The first step in becoming an S-Tier Impostor, is by faking tasks. Only Crewmates can complete tasks, so faking one when other players are near can give you an alibi. To fake a task, stand still in the task spot and wait a bit. Try to leave just after the task bar in the upper left corner fills up, to prove that you really did it. Note that many players will be doing tasks in early game, so you will have many chances to fake them perfectly. \n" +
+        lstinfos.add(new LessonForm("Fake tasks (properly!)", "The first step in becoming an S-Tier Impostor, is by faking many tasks. Only Crewmates can complete tasks, so faking one when other players are near can give you an alibi. To fake a task, stand still in the task spot and wait a bit. Try to leave just after the task bar in the upper left corner fills up, to prove that you really did it. Note that many players will be doing tasks in early game, so you will have many chances to fake them perfectly. \n" +
                 "\n" +
                 "Be careful not to ‘finish’ your task too early though! While most tasks do not take more than a few seconds to complete, there are several long ones. An experienced Crewmate will become suspicious if you pretend to do a long task in two seconds. It is therefore useful to learn which tasks are long ones, and which ones are short. Finally, you should stay clear of the tasks that are visible, as you can’t fake those.", R.drawable.faketasks));
 
